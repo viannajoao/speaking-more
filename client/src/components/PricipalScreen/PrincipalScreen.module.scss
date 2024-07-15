@@ -1,0 +1,29 @@
+.default{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+
+  h1{
+    margin: 2rem 0;
+  }
+
+  button{
+    margin-top: 2rem;
+    padding: 0.875rem;
+    border: 0;
+    border-radius: 8px;
+    color: var(--color-primary);
+    background: var(--bg-dark600);
+    cursor: pointer;
+    transition: 3s linear ease-in-out;
+  }
+
+  button:hover{
+    background: var(--bg-dark800);
+    padding: 1rem;
+  }
+  
+}
