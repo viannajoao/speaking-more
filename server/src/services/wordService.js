@@ -19,7 +19,7 @@ const loadWords = () => {
 // Função para salvar as palavras no arquivo JSON
 const saveWords = (words) => {
   fs.writeFileSync(wordsFilePath, JSON.stringify(words, null, 2));
-};
+};   
 
 export const fetchWordOfTheDay = () => {
 
