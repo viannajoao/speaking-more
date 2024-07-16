@@ -29,11 +29,11 @@
   },
   {
     "word": "account",
-    "chamado": false
+    "chamado": true
   },
   {
     "word": "across",
-    "chamado": false
+    "chamado": true
   },
   {
     "word": "act",
