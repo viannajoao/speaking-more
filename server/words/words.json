@@ -17,15 +17,15 @@
   },
   {
     "word": "above",
-    "chamado": false
+    "chamado": true
   },
   {
     "word": "accept",
-    "chamado": false
+    "chamado": true
   },
   {
     "word": "according",
-    "chamado": false
+    "chamado": true
   },
   {
     "word": "account",

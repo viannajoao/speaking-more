@@ -4,10 +4,13 @@ import path from 'path';
 
 
 // Caminho para o arquivo JSON
-const wordsFilePath = path.resolve("./words/words.json");
+const wordsFilePath = path.resolve(path.dirname(''), "./words/words.json");
 
 // Função para carregar as palavras do arquivo JSON
 const loadWords = () => {
+  if (!fs.existsSync(wordsFilePath)){
+    throw new Error(`O arquivo ${wordsFilePath} nao foi encontrado`)
+  }
   return JSON.parse(fs.readFileSync(wordsFilePath, 'utf-8'));
 };
 
