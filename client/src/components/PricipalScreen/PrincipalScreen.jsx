@@ -16,7 +16,7 @@ export function PrincipalScreen() {
     setLoading(true);
     setStatus("Loading...");
     try {
-      const response = await axios.get("https://speaking-more-server-git-main-joao-viannas-projects.vercel.app/word");
+      const response = await axios.get("http://localhost:3333/word");
       setWord(response.data.word)
       setSentence(response.data.sentences);
       console.log(response.data)

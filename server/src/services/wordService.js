@@ -4,7 +4,7 @@ import path from 'path';
 
 
 // Caminho para o arquivo JSON
-const wordsFilePath = path.resolve("../../words/words.json");
+const wordsFilePath = path.resolve("./words/words.json");
 
 // Função para carregar as palavras do arquivo JSON
 const loadWords = () => {
